@@ -7,6 +7,7 @@ import Portfolio from "../layouts/Portfolio";
 import Logo from "../layouts/Logo";
 import Review from "../layouts/Review";
 import Connect from "../layouts/Connect";
+import Footer from "../layouts/Footer";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Portfolio />
       <Review/>
       <Connect/>
+     <Footer/>
     </div>
   );
 };

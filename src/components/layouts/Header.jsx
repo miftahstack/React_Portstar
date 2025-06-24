@@ -15,7 +15,7 @@ const Header = () => {
             <Flex className={`justify-between mt-5`}>
               <Image src={Logo} alt={Logo.png} />
 
-              <ul className="flex items-center gap-x-4 uppercase font-Poppins">
+              <ul className="flex items-center gap-x-7 uppercase font-Poppins">
                 <li>
                   <a href="">Home</a>
                 </li>

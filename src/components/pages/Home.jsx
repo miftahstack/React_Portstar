@@ -3,6 +3,7 @@ import Experience from "../layouts/Experience";
 import Header from "../layouts/Header";
 import Hero from "../layouts/Hero";
 import Logo from "../layouts/Logo";
+import Portfolio from "../layouts/Portfolio";
 import Services from "../layouts/Services";
 
 
@@ -15,6 +16,7 @@ const Home = () => {
      <Services/>
      <Experience/>
      <Logo/>
+     <Portfolio/>
     </div>
   );
 };

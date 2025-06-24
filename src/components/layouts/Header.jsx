@@ -41,10 +41,7 @@ const Header = () => {
       </section>
       {/* Navbar */}
 
-  
 
-      {/* Hero Section */}
-      {/* Hero Section */}
     </>
   );
 };

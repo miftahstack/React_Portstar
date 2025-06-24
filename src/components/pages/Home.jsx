@@ -1,6 +1,7 @@
 import Counter from "../layouts/Counter";
 import Header from "../layouts/Header";
 import Hero from "../layouts/Hero";
+import Logo from "../layouts/Logo";
 import Services from "../layouts/Services";
 
 
@@ -11,6 +12,7 @@ const Home = () => {
      <Hero/>
      <Counter/>
      <Services/>
+     <Logo/>
     </div>
   );
 };

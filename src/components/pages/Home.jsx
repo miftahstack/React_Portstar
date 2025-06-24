@@ -1,4 +1,5 @@
 import Counter from "../layouts/Counter";
+import Experience from "../layouts/Experience";
 import Header from "../layouts/Header";
 import Hero from "../layouts/Hero";
 import Logo from "../layouts/Logo";
@@ -12,6 +13,7 @@ const Home = () => {
      <Hero/>
      <Counter/>
      <Services/>
+     <Experience/>
      <Logo/>
     </div>
   );

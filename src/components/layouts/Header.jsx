@@ -4,6 +4,9 @@ import Image from "../Image";
 import Logo from "../../assets/logo.png";
 import Sakib from "../../assets/Avatar.png";
 import Fonts from "../Fonts";
+import { BsEnvelope } from "react-icons/bs";
+
+
 
 const Header = () => {
   return (
@@ -31,9 +34,9 @@ const Header = () => {
               </ul>
 
               <button
-                className=" btn-info py-3 px-7 text-[14px] rounded-full bg-[#5E3BEE] text-white uppercase"
+                className="flex items-center  btn-info py-3 px-7 text-[14px] rounded-full bg-[#5E3BEE] text-white uppercase"
                 type="button">
-                Hire Me<i class="fa-solid fa-envelope"></i>
+                 Hire Me <BsEnvelope className="ml-2 text-[18px]"/>
               </button>
             </Flex>
           </Fonts>
